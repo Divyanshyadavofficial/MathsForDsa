@@ -76,6 +76,10 @@ public class Main {
 //
 // the last digit of a  binary no  is known as least significant bit
 
+// (5*3)*(5*4) = 5*5*3*4
+//             = 5*4*3*5
+// basically order does not matter Associative law
+
 
 
 
