@@ -81,11 +81,48 @@ public class Main {
 // basically order does not matter Associative law
 
 
+// lsb tells us whether a num is odd or even
+// msb tells us whether a num is positive or negative
+// 1---> negative
+// 0---> positive
+
+//steps to convert a positive to a negative no
+
+// 1). take compliment of no and
+// 2). add 1 to it.
+
+// why these steps
+
+// 11111111 - 00001010 +1
+
+// range of numbers
+// 1 byte
+// total 256 unique no can be stored in 1 byte
+// actual no is stored in bits = n-1
+// in 1 byte the actual no is stored in 7 bits
+// that is 128 no in the negative and 128 in positive
+// zero will be ignored
+//
+// Range formula for n bits
+// -2**n-1 to 2**n-1 - 1
+// if the numbers are appearing 3 times find the number that
+// appear one time
+// their set bits are appearing 3 times calculate the modulo 3 with
+// every no to find the unique no
+
+//magic no
+//n&1 this will give the last digit in binary.
+// then multiply it with the num then n>>1.
 
 
+// no of digits in base b
+// 6 = 1 digit
+// 110 = 3 digit
+// keep a counter till num ==0.
+// formula
+// log2(6) = x
+// 6 = 2**x
+// x represents the number of digits in the representation of the base.
 
-
-
-
-
-
+// no. of digits of base b of no. n
+// == int(log(b)n)+1 here b is a log base
