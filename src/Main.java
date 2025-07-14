@@ -126,3 +126,10 @@ public class Main {
 
 // no. of digits of base b of no. n
 // == int(log(b)n)+1 here b is a log base
+
+//pascals Triangle  sum of nth row =  1<<(n-1) = 1*2**n-1.
+//
+// power of 2
+// the power of 2 is checked by checking the binary representation
+// of a number if it contains only single one it is a power of 2.
+// if n&(n-1) = 0 then it is a power of 2
