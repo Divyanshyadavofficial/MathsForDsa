@@ -133,3 +133,42 @@ public class Main {
 // the power of 2 is checked by checking the binary representation
 // of a number if it contains only single one it is a power of 2.
 // if n&(n-1) = 0 then it is a power of 2
+
+// modulo properties
+
+// (a+b)%m = ((a%m)+(b%m))%m
+
+// (a-b)%m = ((a%m)-(b%m)+m)%m
+
+// (a*b)%m = ((a%m)*(b%m))%m
+
+// (a/b)%m = ((a%m)*(b**-1%m))%m
+
+// (b**-1)%m ---> multiplicative modulo inverse
+// basically means that b and m are co primes
+// nothing else is common except for 1 in them
+
+// (a%m)%m = a%m
+
+// (m**x) % m = 0 for x = positive integers
+
+// if p is prime no. which is not a divisor of b,
+// then ab**p-1 % p = a%p due to fermat's little
+// theorem
+
+// Die hard example
+// r = s'a + t'b = L --> r = ax+by
+// put x & y as integers, what is the minimum +ve
+// value you can have of equation
+
+//3X+5y = 1
+// this is called hcf.
+
+//hcf of a&b = min. +ve value of eqn aX+by where
+// x&y are integers.
+
+// whatever hcf you will get that will come out as
+// common
+
+// euclid's algo
+// gcd(a,b) = gcd(rem(b,a),a)
