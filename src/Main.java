@@ -172,3 +172,20 @@ public class Main {
 
 // euclid's algo
 // gcd(a,b) = gcd(rem(b,a),a)
+
+// lcm(a,b) == min no divisible by both a & b.
+// say we have a,b
+// d = gcd(a,b)
+// f = a/d, g = b/d
+// a = fd, b = gd
+// lcm = c  lcm(a,b) = lcm(fd,gd)
+
+// we know that f&g will have no other common factor
+
+// a=9,b=18 d = 9
+// f = 1, g =2
+//i.e
+// a = fd , b = gd
+// lcm = f*g*d
+// hcf*lcm = a*b
+
